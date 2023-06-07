@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
     <!-- 카메라 권한 -->
     <uses-feature android:name="android.hardware.camera" android:required="true" />
-
     <queries>
         <intent>
             <action android:name="android.media.action.IMAGE_CAPTURE" />
@@ -27,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- 안드로이드 카메라 권한 설정 -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
