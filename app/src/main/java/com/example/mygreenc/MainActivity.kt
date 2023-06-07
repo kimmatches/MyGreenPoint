@@ -2,6 +2,7 @@ package com.example.mygreenc
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +11,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val mypage = findViewById<ImageButton>(R.id.imageButton)
+
+        mypage.setOnClickListener{
+            val intent = Intent(this,Mypage::class.java)
+            startActivity(intent)
+        }
 
 
         val img1 = findViewById<ImageView>(R.id.bicycle)

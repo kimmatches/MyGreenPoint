@@ -26,8 +26,9 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="331dp"
+                    android:layout_width="330dp"
                     android:layout_height="51dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:text="세상을 바꾸다 그린 챌린지!"
                     android:textColor="#88CD82"
